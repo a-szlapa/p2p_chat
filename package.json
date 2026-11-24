@@ -1,0 +1,19 @@
+{
+  "name": "tor-p2p-check",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "receiver": "tsx src/receiver.ts",
+    "sender": "tsx src/sender.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "socks": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
